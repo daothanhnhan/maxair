@@ -1,0 +1,1 @@
+<span class="add_compare_banhatgiong" title="Thêm so sánh"><i class="fa fa-refresh" aria-hidden="true"></i></span>

@@ -1,0 +1,47 @@
+.widget{
+  margin-bottom: 30px;
+}
+.widget-title-tintuc{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: $color-1;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  &:before{
+    position: absolute;
+    content: '';
+    width: 114px;
+    bottom: -2px;
+    left: 1px;
+    height: 3px;
+    background: $color-main;
+  }
+}
+.list_category{
+  li{
+    border-bottom: 1px solid $color-border;
+    &:last-child{
+      border-bottom: none;
+    }
+    a{
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: $color-1;
+     line-height: 36px;
+      text-decoration: none;
+      transition: color .2s ease;
+      &:hover{
+        color: $color-main;
+      }
+    }
+  }
+}

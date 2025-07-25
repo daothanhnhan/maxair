@@ -1,0 +1,1 @@
+<?php include_once DIR_REGISTER."MS_REGISTER_BANHATGIONG_0005.php"; ?>

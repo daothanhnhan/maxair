@@ -1,0 +1,1 @@
+<span class="add_favorite_banhatgiong" title="Thêm yêu thích"><i class="fa fa-heart" aria-hidden="true"></i></span>

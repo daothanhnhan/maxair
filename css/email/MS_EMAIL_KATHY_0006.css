@@ -1,0 +1,30 @@
+.header_send_email {
+  font-size: 3em;
+  font-weight: 600;
+  color: #777;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center; }
+
+.cover_send_email input {
+  width: 100%;
+  font-size: 1.4em;
+  padding: 17px 17px;
+  border: none;
+  padding-right: 111px;
+  outline: none; }
+
+.cover_send_email button {
+  outline: none;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  font-size: 1.5em;
+  padding: 13.5px 15px;
+  background: #56a7d6;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer; }

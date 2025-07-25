@@ -1,0 +1,51 @@
+.uni-social{
+  padding-top: 20px;
+  h4{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: $color-white;
+    text-transform:  uppercase;
+  }
+  ul{
+    display:  inline-block;
+    li{
+      float: left;
+      margin-right: 10px;
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        margin-right: 5px;
+      }
+      a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border: solid 1px $color-white;
+        font-family: FontAwesome;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        transition: all 0.5s;
+        @media screen and (max-width: 1199px) and (min-width: 992px) {
+          width: 35px;
+          height: 35px;
+        }
+        &:hover{
+          color: $color-white;
+          background: $color-6;
+          border-color: $color-6;
+        }
+      }
+    }
+  }
+}

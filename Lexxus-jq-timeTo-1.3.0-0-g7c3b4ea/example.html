@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>&laquo;TimeTo&raquo; jQuery plug-in example</title>
+
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement('figure');
+        document.createElement('figcaption');
+    </script>
+    <![endif]-->
+    <link href="timeTo.css" type="text/css" rel="stylesheet"/>
+
+    <style>
+        pre {
+            margin-bottom: 10px;
+            padding-left: 10px;
+            border-left: 3px #DDD solid;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <h3>Set countdown to specified date-time</h3>
+    <span id="date-str"></span>'));
+
+    <div id="countdown-2"></div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="node_modules/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="jquery.time-to.js"></script>
+    <script>
+       
+        $('#reset-1').click(function() {
+            $('#countdown-1').timeTo('reset');
+        });
+
+        $('#clock-w-step-cb').timeTo({
+          step: function() {
+              console.log('Executing every 3 ticks');
+          },
+          stepCount: 3
+        });
+
+        var date = getRelativeDate(2);
+
+        document.getElementById('date-str').innerHTML = date.toISOString();
+        $('#countdown-2').timeTo(date);
+
+        var time = '23:59:54';
+        document.getElementById('date2-str').innerHTML = time;
+
+      
+        $('#clock-1').timeTo();
+
+        function getRelativeDate(days, hours, minutes) {
+            var d = new Date(Date.now() + 60000 /* milisec */ * 60 /* minutes */ * 24 /* hours */ * days /* days */);
+
+            d.setHours(hours || 0);
+            d.setMinutes(minutes || 0);
+            d.setSeconds(0);
+
+            return d;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+/*LATEST POST*/
+.gb-latest-post{
+  padding: 50px 0;
+  background: url("../images/bg-praradax.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .gb-latest-post-title{
+    margin-bottom: 60px;
+  }
+  .gb-latest-post-body-desktop{
+    @media screen and (min-width: 992px) {
+      display: block;
+    }
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+  .gb-latest-post-body-mobiles{
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+  }
+  .owl-theme .owl-dots .owl-dot span{
+    width: 25px;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 0;
+    margin: 5px 3px;
+    transform: skew(-40deg);
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: $color-main;
+  }
+  .owl-theme .owl-dots{
+    margin-top: 60px;
+  }
+}
+.blog-grid-item{
+  padding-bottom: 30px;
+  .gb-entry-top{
+    .thumbnail-img{
+      overflow: hidden;
+      @media screen and (min-width: 768px) {
+      height: 240px;
+      }
+      @media screen and (max-width: 767px) {
+        height: auto;
+      }
+      img{
+        width: 100%;
+        height: auto;
+        transition:  all 0.5s;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  .gb-entry-content{
+    padding: 20px 20px 0 20px;
+    background-color: #f4f4f4;
+    .gb-entry-title{
+      a{
+        display:  block;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #22292d;
+        text-transform: uppercase;
+        transition:  all 0.5s;
+        &:hover{
+          color: $color-main;
+        }
+      }
+    }
+    .gb-divider{
+      border-color: $color-main;
+      margin-top:  20px;
+    }
+    .gb-entry-meta{
+      padding-bottom: 15px;
+      span{
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+        padding-right: 15px;
+        text-transform: capitalize;
+        a{
+          color: #666666;
+          transition:  all 0.5s;
+          &:hover{
+            color: $color-main;
+          }
+        }
+        i{
+          color: $color-main;
+        }
+      }
+    }
+  }
+}

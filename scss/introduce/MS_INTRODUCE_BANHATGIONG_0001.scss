@@ -1,0 +1,72 @@
+.gb-kathy-title{
+  margin-bottom: 30px;
+  h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    //font-family: $playfairdisplay;
+    font-style: italic;
+    text-transform:  capitalize;
+  }
+}
+.gbline{
+  background: url("../../images/icon_image.png") no-repeat;
+  height: 20px;
+  background-position:  center;
+  margin-top: 15px;
+}
+
+.readmore{
+  position: relative;
+  display:  inline-block;
+  padding: 10px 20px;
+  border: 1px solid $color-border;
+  margin-top: 10px;
+  color: $color-1;
+  font-size: 14px;
+  text-transform:  uppercase;
+  &:hover{
+    color: $color-white;
+    &:before {
+      transform: scaleX(1);
+    }
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $color-main;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+}
+
+.gb-home-introduce{
+  padding: 50px 0;
+  position: relative;
+  p{
+    color: $color-grey;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  img.img-absolute {
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    width: 450px;
+  }
+}

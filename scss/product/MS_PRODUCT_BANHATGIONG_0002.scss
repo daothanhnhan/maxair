@@ -1,0 +1,19 @@
+.box_price_product_banhatgiong{
+  margin-top: 10px;
+  .price_product_banhatgiong{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4px 0;
+  }
+  .old_price_banhatgiong{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d30050;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 10px;
+  }
+}

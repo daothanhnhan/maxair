@@ -1,0 +1,116 @@
+.gb-filter-price{
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: $color-1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $color-border;
+    &:before {
+      position: absolute;
+      content: '';
+      width: 114px;
+      bottom: -2px;
+      left: 1px;
+      height: 3px;
+      background: $color-main;
+    }
+  }
+  #slider-range{
+    width: 100%;
+    height: 5px;
+    background: #E0E0E0;
+    border-radius: 2px;
+    border: none;
+    margin-top: 40px;
+  }
+  .ui-state-active{
+    border-color: transparent;
+    background: transparent;
+  }
+  .ui-state-default{
+    position: relative;
+    border-color: transparent;
+    background: transparent;
+    outline: none;
+    &:before{
+      content: '';
+      width: 16px !important;
+      height: 16px !important;
+      background: $color-main !important;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      top: -2px;
+      position: absolute;
+    }
+    &:after{
+      content: '';
+      width: 10px !important;
+      height: 10px !important;
+      background: $color-white !important;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+      top: 1px;
+      left: 3px;
+      position: absolute;
+    }
+  }
+  .ui-slider-horizontal .ui-slider-range{
+    background: $color-main;
+    margin-left: -5px;
+  }
+  .label-filter-price{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    margin-top: 25px;
+    input{
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      font-stretch: normal;
+      line-height: 1.21;
+      letter-spacing: normal;
+      text-align: center;
+      color: #666666;
+      border: none;
+      background: transparent;
+    }
+  }
+
+  .btn-filter-prince{
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    background: $color-main;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 3px;
+    color: $color-white;
+    position: relative;
+    margin-top: 25px;
+    transition:all 0.5s;
+    &:hover{
+      border:1px solid $color-main;
+      background: none;
+      color: $color-main;
+      transition:all 0.5s;
+    }
+  }
+  .ui-state-default, .ui-widget-content .ui-state-default{
+    background:  transparent;
+    border: none;
+  }
+}

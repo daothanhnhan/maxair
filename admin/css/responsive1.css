@@ -1,0 +1,415 @@
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1100px) {
+     .visible-sm, .visible-xs {
+        display: block !important;
+    }
+    .menu-mobile-nav{
+        padding-top: 10px;
+    }
+    .listMenuFL {
+        width: 100%;
+    position: relative;
+    background: aliceblue;
+        display: none;
+    }
+    .imgLogoTop{
+        width: 65%;
+    }
+    .titleFixedTop{
+        font-size: 15px;
+        margin: 25px 0px;
+        margin-right: -79px;
+        display: none;
+    }
+    .centerWeb{
+        position: relative;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    float: left;
+    }
+    .fixedTop{
+        z-index: 5;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 60px;
+        padding-right: 1px;
+        background-color: #fff;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .fixed_mobie{
+        display: block;
+        margin-top: 64px;
+    }
+    .fixedLeft{
+        display: none;
+    }
+    .centerWeb{
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        float: left;
+    }
+    .numDB {
+        float: right;
+        color: #fff;
+        font-size: 21px;
+        width: 75%;
+        text-align: center;
+    }
+    .nameDB {
+        float: left;
+        color: #fff;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+    .linkDB {
+        width: 100%;
+        padding: 14px 0px;
+    }
+    .btnSearchBox{
+        width: 18%;  font-size: 10px;
+    }
+    .txtSearchBox{
+        width: 69%;
+      
+    }
+    .colNP1,.colNP2,.colNP3,.colNP4{
+        
+    }
+    .colNP3_2, .colNP2_2, .colNP1_2, .colNP4_2{
+     
+       float: left;
+    } 
+    .colNP1_2 a {
+        font-size: 10px;
+        color: #0B4D95;
+    }
+    input[type=checkbox], input[type=radio]{
+        width: 9px;
+        height: 9px;
+    }
+    .colNP6{
+        text-align: end;
+        float: right;
+        width: 13%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP6_2{
+        float: left;
+        text-align: end;
+        font-size: 10px;
+    }
+    .footerWeb{
+        font-size: 11px;
+    }
+    .menu-mobile-nav span{
+        font-size: 19px;
+    font-weight: bold;
+    color: #e74345;
+    }
+    .menu-mobile-nav span.icon-bar .fa{
+        font-size: 22px;
+    }
+    .animated{
+        display: none;
+    }
+    .subLeftNCP{
+        display: none;
+    }
+    .boxNodeContentPage{
+        float: none;
+        width: 100%;
+    }
+    .btnAddTop{
+        font-size: 12px;
+        padding: 6px 7px;
+    }
+    .linkLogoTop {
+        width: 130px;
+        margin: 15px;
+    }
+    .logoTop {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 59%;
+        height: 60px;
+        background-color: #fff;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 992px) {
+    .colNP1, .colNP2, .colNP3 {
+        width: 9%;
+        margin-right: 0%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+     .colNP4 {
+        width: 9%;
+        margin-right: 0%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP1_2 a {
+        font-size: 10px;
+        color: #0B4D95;
+        margin-left: 24%;
+    }
+    .colNP3_2, .colNP2_2, .colNP1_2, .colNP4_2 {
+        width: 13%;
+        text-align: left;
+        margin-right: 0%;
+        float: left;
+        font-size: 9px;
+    }
+    .colNP3_2, .colNP2_2, .colNP1_2, .colNP4_2 {
+        width: 10%;
+        text-align: left;
+        margin-right: 0%;
+        float: left;
+        font-size: 9px;
+    }
+    .colNP4 {
+        width: 9%;
+        margin-right: 0%;
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 3%;
+    }
+    .colNP6 {
+        text-align: end;
+        float: left;
+        width: 7%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .menu-mobile-nav{
+        padding-top: 10px;
+    }
+    .listMenuFL {
+        width: 100%;
+    position: relative;
+    background: aliceblue;
+        display: none;
+    }
+    .imgLogoTop{
+        width: 65%;
+    }
+    .titleFixedTop{
+        font-size: 15px;
+        margin: 25px 0px;
+        margin-right: -79px;
+        display: none;
+    }
+    .centerWeb{
+        position: relative;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    float: left;
+    }
+    .fixedTop{
+        z-index: 5;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: 60px;
+        padding-right: 1px;
+        background-color: #fff;
+        border-bottom: 1px solid #E0E0E0;
+    }
+    .fixed_mobie{
+        display: block;
+        margin-top: 64px;
+    }
+    .fixedLeft{
+        display: none;
+    }
+    .centerWeb{
+        position: relative;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 5px;
+        padding-bottom: 30px;
+        float: left;
+    }
+    .numDB {
+        float: right;
+        color: #fff;
+        font-size: 21px;
+        width: 75%;
+        text-align: center;
+    }
+    .nameDB {
+        float: left;
+        color: #fff;
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+    .linkDB {
+        width: 100%;
+        padding: 14px 0px;
+    }
+    .btnSearchBox{
+        width: 18%;  font-size: 10px;
+    }
+    .txtSearchBox{
+        width: 69%;
+      
+    }
+    .colNP1,.colNP2,.colNP3,.colNP4{
+        width: 12%;
+        margin-right: 4%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP3_2, .colNP2_2, .colNP1_2, .colNP4_2{
+        width: 13%;
+        text-align: end;
+        margin-right: 2%;
+        float: left;
+        font-size: 9px;
+        
+    } 
+    .colNP1_2 a {
+        font-size: 10px;
+    color: #0B4D95;
+    margin-left: 48%;
+    }
+    input[type=checkbox], input[type=radio]{
+        width: 16px;
+        height: 16px;
+    }
+    .colNP6{
+        text-align: end;
+        float: right;
+        width: 13%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP6_2{
+        float: left;
+        text-align: end;
+        font-size: 7px;
+    }
+    .footerWeb{
+        font-size: 11px;
+    }
+    .menu-mobile-nav span{
+        font-size: 19px;
+    font-weight: bold;
+    color: #e74345;
+    }
+    .menu-mobile-nav span.icon-bar .fa{
+        font-size: 22px;
+    }
+    .animated{
+        display: none;
+    }
+    .subLeftNCP{
+        display: none;
+    }
+    .boxNodeContentPage{
+        float: none;
+        width: 100%;
+    }
+    .btnAddTop{
+        font-size: 12px;
+        padding: 6px 7px;
+    }
+    .linkLogoTop {
+        width: 130px;
+        margin: 15px;
+    }
+    .logoTop {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 59%;
+        height: 60px;
+        background-color: #fff;
+        z-index: 10;
+    }
+    .contentPage {
+       width: 100%;
+        float: left;
+        padding: 0 15px;
+    }
+    .sideCusInfo {
+        width: 100%;
+        float: left;
+        padding: 0 15px;
+        background-color: #e6e8ea;
+        border-radius: 3px;
+    }
+    .contentPage .box1 .list_item_order .item_total_price{
+        display: none;
+    }
+    .colNP1_2{
+        width: 9%;
+        text-align: left;
+        margin-right: 2%;
+        float: left;
+        font-size: 9px;
+    }
+.colNP2_2 {
+        width: 13%;
+        text-align: center;
+        margin-right: 2%;
+        float: left;
+        font-size: 9px;
+    }
+    .colNP1_2 a {
+        font-size: 10px;
+        color: #0B4D95;
+        margin-left: 3%;
+    }
+    .colNP1{
+        width: 12%;
+        margin-right: 3%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP2{
+        width: 12%;
+        margin-right: 0%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP4{
+        width: 12%;
+        margin-right: 0%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .colNP6 {
+        text-align: end;
+        float: left;
+        width: 9%;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}

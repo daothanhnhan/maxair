@@ -1,0 +1,83 @@
+#vk-home-default-slide {
+  margin-top: 10px;
+}
+#uni-home-defaults-slide_banhatgiong{
+  #vk-owl-demo-singer-slider_banhatgiong{
+    position: relative;
+    .owl-nav{
+      display: block !important;
+      margin-top: 0;
+      .owl-prev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 20px !important;
+        top: 50% !important;
+        background: white;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        padding: 0;
+        @media screen and (max-width: 991px) {
+          left: 20px !important;
+        }
+        &:hover{
+          background: $color-main;
+          &:after{
+            color: $color-white !important;
+          }
+        }
+        &:after{
+          content: "\f053";
+          display: block;
+          color: black !important;
+          font-family: FontAwesome;
+          font-size: 14px;
+          line-height: 0.87;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.2);
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+      }
+      .owl-next{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: $color-white;
+        border-radius: 50px;
+        position: absolute;
+        right: 20px !important;
+        top: 50% !important;
+        color: $color-1;
+        padding: 0;
+        height: 40px;
+        width: 40px;
+        @media screen and (max-width: 991px) {
+          right: 20px !important;
+        }
+        &:hover{
+          background: $color-main;
+          &:after{
+            color: $color-white !important;
+          }
+        }
+        &:after{
+          content: "\f054";
+          display: block;
+          color: $color-1 !important;
+          font-family: FontAwesome;
+          font-size: 14px;
+          line-height: 0.87;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.2);
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}

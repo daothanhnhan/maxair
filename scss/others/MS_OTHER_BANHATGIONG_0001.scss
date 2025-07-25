@@ -1,0 +1,16 @@
+.gb-gallery-home{
+  .item{
+    overflow:  hidden;
+    &:hover{
+      cursor:  pointer;
+    }
+    img{
+      width: 100%;
+      height:  auto;
+      transition:  all 0.5s;
+      &:hover{
+        transform:  scale(1.1);
+      }
+    }
+  }
+}

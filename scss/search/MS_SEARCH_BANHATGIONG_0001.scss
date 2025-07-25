@@ -1,0 +1,23 @@
+.gb-header-between_banhatgiong-search{
+  margin-top: 20px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  .form-control{
+    height: 45px;
+    font-size: 13px;
+  }
+  .btn{
+    height: 45px;
+  }
+  .btn-tim{
+    width: 45px;
+    height: 45px;
+    border: 1px solid $color-main;
+    background: $color-main;
+    text-shadow: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,30 @@
+.gb-footer-follow-me{
+  ul{
+    li{
+      a{
+        display: block;
+      }
+      img{
+        width: 100%;
+        height:  auto;
+      }
+      @media screen and (min-width: 768px) {
+        width: 33.33%;
+        float: left;
+        padding-left: 7px;
+        img{
+          width: 100%;
+          height:  auto;
+        }
+      }
+      @media screen and (max-width: 767px) {
+        width: 50%;
+        float: left;
+        img{
+          width: 100%;
+          height:  auto;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+/*TOP HEADER*/
+.top-header{
+  border-bottom: 1px solid #dcdcdc;
+  @media screen and (max-width: 550px) {
+    display:  none;
+  }
+  ul{
+    display: flow-root;
+    li{
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      line-height: 26px;
+      position: relative;
+      @media screen and (max-width: 570px) {
+        width: auto;
+      }
+      a{
+        display:  block;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-white;
+        text-shadow:  none;
+        @media screen and (max-width: 767px) {
+          font-size: 11px;
+          font-weight:  normal;
+        }
+      }
+      @media screen and (max-width: 1199px) and (min-width: 992px) {
+        padding: 10px 5px;
+      }
+      &:first-child{
+        margin: 0;
+        padding-left: 0;
+      }
+      .icons{
+        float: left;
+        color: $color-main;
+        font-size: 18px;
+      }
+      p{
+        float: left;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+.gb-header-between_banhatgiong-logo{
+  h1{
+    a{
+      img{
+        width: 80px;
+      }
+    }
+  }
+}
+.gb-header-between_banhatgiong-left{
+  padding-top: 50px;
+  @media screen and (max-width: 991px) {
+    padding-top: 5px;
+  }
+}
+
+.gb-header-between_banhatgiong-right{
+  padding-top: 50px;
+  @media screen and (max-width: 991px) {
+    padding-top: 5px;
+  }
+  ul{
+    text-align:  right;
+    li{
+      display:  inline-block;
+      padding-left: 20px;
+      @media screen and (max-width: 991px) {
+        display:  block;
+        line-height: 24px;
+        padding-left:  0;
+      }
+      &:first-child{
+        padding-left: 0;
+      }
+      &.gb-header-login-register{
+        @media screen and (max-width: 439px) {
+          display:  none;
+        }
+      }
+      a{
+        display:  block;
+        color: $color-main;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+#imaginary_container{
+  margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+  background: white !important;
+}
+.stylish-input-group .form-control{
+  border-right:0;
+  box-shadow:0 0 0;
+  border-color:#ccc;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+
+.gb-header-between_banhatgiong-hotline{
+  padding-top: 35px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  .icons{
+    width: 30px;
+    float:  left;
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+  p{
+    padding-left: 40px;
+    line-height: 30px
+  }
+}
+.gb-header-between_banhatgiong-email{
+  padding-top: 35px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  .icons{
+    width: 30px;
+    float:  left;
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+  p{
+    padding-left: 40px;
+    line-height: 30px;
+  }
+}
+/*----------------------------------------------------------------*/
+.gb-header-banhatgiong{
+  display: flow-root;
+}
+.gb-header-top-banhatgiong{
+  border-bottom: 1px solid $color-7;
+}
+
+.gb-header-top-banhatgiong-right{
+  padding: 10px 0;
+  text-align:  right;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  ul{
+    li{
+      display:  inline-block;
+      margin-left: 10px;
+      a{
+        color: $color-7;
+        display:  block;
+        font-size: 14px;
+        i{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.gb-header-between_banhatgiong-hotro{
+  padding-top: 15px;
+  @media screen and (max-width: 991px) {
+    display:  none;
+  }
+  ul{
+    display: flow-root;
+    float: right;
+    li{
+      float: left;
+      margin-left: 5px;
+      .icons-hotro_banhatgiong{
+        width: 50px;
+        height: 50px;
+        background: $color-main;
+        color: $color-white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+      .number-hotro_banhatgiong{
+        font-size: 14px;
+        color: $color-white;
+        background: $color-main;
+        padding: 5px 20px;
+        line-height: 20px
+      }
+    }
+  }
+}
+
+.gb-header-bottom_banhatgiong{
+  background: $color-main;
+}
+
+.gb-header-top-banhatgiong-left{
+  padding: 10px 0;
+  ul{
+    li{
+      display: inline-block;
+      font-size: 14px;
+      color: $color-7;
+      margin-right: 10px;
+    }
+  }
+}
+
+

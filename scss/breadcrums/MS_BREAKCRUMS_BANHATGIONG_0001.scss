@@ -1,0 +1,47 @@
+.gb-breadcrum{
+  background: url("../images/breadcrum.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
+  margin-bottom: 50px;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  ul{
+    background: transparent;
+    text-align: center;
+    @media screen and (max-width: 991px) {
+      padding-top: 130px;
+    }
+    li{
+      padding: 4px 12px 4px 22px;
+      position: relative;
+      white-space: nowrap;
+      border-right: transparent;
+      margin-bottom: 5px;
+      font-size: 24px;
+      color: $color-white;
+      @media screen and (max-width: 767px) {
+        font-size: 18px;
+      }
+      &:before{
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: $color-white;
+        position: absolute;
+        right: -12px;
+        top: 12px;
+        border-radius: 50%;
+      }
+      a{
+        display: block;
+        color: $color-white;
+      }
+    }
+  }
+  .breadcrumb>li+li:before{
+    content: "";
+    display:  none;
+  }
+}

@@ -1,0 +1,23 @@
+.gb-footer-newletter{
+  .input-group{
+    border-radius: 4px;
+    padding-bottom: 20px;
+  }
+  .form-control{
+    height: 44px;
+    border: none;
+  }
+  span{
+    .btn-theme{
+      height: 44px;
+      background: $color-main;
+      color: $color-white
+    }
+  }
+  p{
+    display: block;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+}
